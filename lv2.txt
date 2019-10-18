@@ -1,0 +1,26 @@
+public class lv2 {
+    public static void main(String[] args) {
+        int i,j,k,m=63,n=7;
+        for(i=10;i>=1;i--) {
+            for(j=1;j<=m;j++) {
+                System.out.print(" ");
+            }
+            for(k=1;k<=11-i;k++)
+            System.out.print(" *");
+            System.out.println( );
+            m=m-7;
+        }
+
+        for(i=9;i>=1;i--) {
+            for(j=1;j<=n;j++) {
+                System.out.print(" ");
+            }
+            for(k=1;k<=i;k++)
+               System.out.print(" *");
+               System.out.println( );
+               n=n+7;
+
+        }
+
+    }
+}
